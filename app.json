@@ -18,6 +18,9 @@
       "**/*"
     ],
     "ios": {
+      "infoPlist":{
+        "NSPhotoLibraryUsageDescription": "We need to access your photos."
+      },
       "supportsTablet": true
     },
     "android": {
